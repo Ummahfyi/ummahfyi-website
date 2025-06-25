@@ -36,3 +36,200 @@
     transform: rotate(360deg);
   }
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url('./realbackground.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center-heading {
+  font-size: 3.5rem;
+  text-align: center;
+  transform: translateY(-250px);
+}
+
+/* .grey-box {
+  display: flex;
+} */
+
+/* .newsletter-text {
+  top: 20%;
+  left: 50%;
+  transform: translate(-10%, -10%);
+  font-size: 20px;
+  font-weight: bold
+} */
+
+.newsletter-box {
+  width: 150px;
+  height: 35px;
+  background-color: #f3f2f2;
+  border-radius: 12px;
+  position: absolute; /* Important */
+  top: 20px;
+  right: 100px;
+}
+
+.newsletter-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-box {
+  width: 150px;
+  height: 35px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  position: absolute; /* Important */
+  top: 20px;
+  right: 280px;
+}
+
+.contact-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+}
+
+.about-box {
+  width: 150px;
+  height: 35px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  position: absolute; /* Important */
+  top: 20px;
+  right: 460px;
+}
+
+.about-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+}
+
+.home-box {
+  width: 150px;
+  height: 35px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  position: absolute; /* Important */
+  top: 20px;
+  right: 640px;
+}
+
+.home-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.register-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -630%);
+  font-size: 25px;
+  font-style: italic;
+  color: #333;
+}
+
+.ummahFIY-box {
+  width: 150px;
+  height: 35px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  position: absolute; /* Important */
+  top: 20px;
+  right: 1400px;
+}
+
+.ummahFIY-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  font-weight: bold;
+  color: #43551D;
+}
+
+.email-box {
+  width: 280px;
+  height: 35px;
+  background-color: #f3f2f2;
+  border-radius: 5px;
+  position: absolute; /* Important */
+  top: 340px;
+  right: 710px;
+}
+
+.email-text {
+  position: absolute;
+  top: 50%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: #333;
+}
+
+.continue-box {
+  width: 280px;
+  height: 35px;
+  background-color: #333;
+  border-radius: 5px;
+  position: absolute; /* Important */
+  top: 388px;
+  right: 710px;
+}
+
+.continue-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: #f3f2f2;
+}
+
+.top-left-image {
+  position: absolute;
+  top: 4px;
+  left: 35px;
+  width: 90px; /* change as needed */
+  height: auto; /* keeps original aspect ratio */
+  z-index: 10; /* makes sure it’s on top */
+}
